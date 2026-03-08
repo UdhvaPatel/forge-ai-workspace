@@ -132,11 +132,11 @@ const SettingsPage = () => {
                         <h3 className="text-sm font-semibold text-foreground">Supabase Status</h3>
                         <div className="flex items-center gap-2">
                           <motion.div
-                            className="w-2 h-2 rounded-full bg-green-400"
+                            className="w-2 h-2 rounded-full bg-primary"
                             animate={{ scale: [1, 1.3, 1], opacity: [0.7, 1, 0.7] }}
                             transition={{ duration: 2, repeat: Infinity }}
                           />
-                          <span className="text-xs text-green-400 font-mono">Live</span>
+                          <span className="text-xs text-primary font-mono">Live</span>
                         </div>
                       </div>
                       <p className="text-xs text-muted-foreground">Connected to your project database with 19,329 tools indexed.</p>
